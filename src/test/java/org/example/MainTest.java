@@ -10,4 +10,10 @@ class MainTest {
     Main main =new Main();
     assertEquals(1,main.return1());
 }
+    @Test
+    public void return1Failed(){
+        Main main =new Main();
+        assertEquals(2,main.return1());
+    }
+
 }
